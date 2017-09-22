@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chef.Extensions", "Chef.Extensions\Chef.Extensions.csproj", "{72C2372D-68E8-4777-8A7E-466EFD87F08D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chef.Extensions.Net462", "Chef.Extensions.Net462\Chef.Extensions.Net462.csproj", "{1D6444FB-BF88-4D23-B0B8-07FADC710733}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{72C2372D-68E8-4777-8A7E-466EFD87F08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72C2372D-68E8-4777-8A7E-466EFD87F08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72C2372D-68E8-4777-8A7E-466EFD87F08D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D6444FB-BF88-4D23-B0B8-07FADC710733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6444FB-BF88-4D23-B0B8-07FADC710733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6444FB-BF88-4D23-B0B8-07FADC710733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6444FB-BF88-4D23-B0B8-07FADC710733}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
