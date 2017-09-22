@@ -10,9 +10,9 @@ namespace Chef.Extensions
             return new DateTime(me.Year, me.Month, me.Day, hour, minute, second);
         }
 
-        public static DateTime ToDateTime(this string me, string format)
+        public static DateTime ToDateTime(this string me, string format, IFormatProvider provider = null)
         {
-            return DateTime.ParseExact(me, format, CultureInfo.InvariantCulture);
+            return DateTime.ParseExact(me, format, provider ?? CultureInfo.InvariantCulture);
         }
     }
 }
