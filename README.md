@@ -32,7 +32,7 @@ Examples:
 List<T>().ToDataTable(x => x);
 
 // Return DataTable only Id and Name columns
-List<T>().ToDataTable(x => new { xId, x.Name });
+List<T>().ToDataTable(x => new { x.Id, x.Name });
 
 // If property name of T is different from column name.
 // We can hook System.ComponentModel.DataAnnotations.Schema.ColumnAttribute on property of T.
